@@ -1,8 +1,11 @@
 #include <iostream>
+#include "class_mMatrix\mMatrix.h"
 
 int main() {
 
-	std::cout << "Hello World!!" << std::endl;
+	mMatrix matrika;
+	matrika.mShow();
 
 	return 0;
 }
+
